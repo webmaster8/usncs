@@ -23,10 +23,6 @@ a {
     text-decoration: #fff;
 }
 
-li {
-    list-style: none;
-}
-
 address {
     margin-bottom: 0;
 }
@@ -85,10 +81,6 @@ address {
 
 .showcase p {
     font-size: 1.3rem;
-}
-
-li{
-    list-style: none;
 }
 
 .logo,
@@ -426,6 +418,22 @@ input#mail:valid{
     margin-left: -20px;
 }
 
+.positions {
+    background-color: var(--secondary-color);
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+.position-disclist {
+    margin-left: 20px;
+}
+
+.discs {
+    color: var(--overlay-color);
+}
+
 .fas {
     font-weight: 900;
     font-size: 100px;
@@ -620,6 +628,7 @@ input#mail:valid{
 
 .ahacpr-logo {
     width: 90px;
+    height: 80px;
     margin-bottom: 18px;
 }
 
@@ -942,6 +951,24 @@ input#mail:valid{
 
     .career-about {
         margin-left: 240px;
+    }
+
+    .position-list {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .positions {
+        font-size: 2.9rem;
+        font-weight: bold;
+    }
+
+    .position-disclist {
+        margin-left: 30px;
+    }
+
+    .discs {
+        font-size: 1.8rem;
     }
 
     .services-par {
