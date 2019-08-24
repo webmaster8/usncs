@@ -68,9 +68,15 @@ address {
     background-color: var(--overlay-color);
 }
 
+/* #videoBG {
+    z-index: -1;
+    position: absolute;
+}  */
+
 .intro-img {
     width: 300px;
     margin-bottom: 25px;
+    margin-top: 60px;
 }
 
 .showcase h1 {
@@ -79,21 +85,6 @@ address {
 
 .showcase p {
     font-size: 1.3rem;
-}
-
-.btn {
-    display: inline-block;
-    border: none;
-    background-color: var(--primary-color);
-    color: #fff;
-    padding: 0.75rem 1.5rem;
-    margin-top: 1rem;
-    text-decoration: none;
-    transition: opacity 1s ease-in;
-}
-
-.btn:hover {
-    opacity: 0.7;
 }
 
 li{
@@ -111,8 +102,8 @@ li{
 }
 
 .logo {
-    width: 148px;
-    height: 104px;
+    width: 141px;
+    height: 81px;
 }
 
 .menu-wrap {
@@ -258,13 +249,6 @@ li{
 .wrapper {
     display: flex;
 }
-
-
-
-
-
-
-
 
 /* .container{
 	width: 90%;
@@ -617,19 +601,30 @@ input#mail:valid{
     text-align: center;
 }
 
-.company-logo1,
 .company-logo2,
-.company-logo3 {
-    margin-bottom: 40px;
+.company-logo3,
+.ahacpr-logo,
+.usnr-logo {
+    margin: 0px 5px 40px 5px;
 }
 
 .company-logo2 {
     width: 90px;
+    margin-right: 0px;
 }
 
 .company-logo3 {
     width: 80px;
     height: 50px;
+}
+
+.ahacpr-logo {
+    width: 90px;
+    margin-bottom: 18px;
+}
+
+.usnr-logo {
+    width: 120px;
 }
 
 .contacts {
@@ -731,7 +726,7 @@ input#mail:valid{
 @media(min-width: 1024px){
 
     .menu-wrap .hamburger {
-        margin-right: 855px;
+        margin-right: 755px;
     }
 
     .container {
@@ -856,6 +851,13 @@ input#mail:valid{
         width: 600px;
     }
     
+    .company-logo2,
+    .company-logo3,
+    .ahacpr-logo,
+    .usnr-logo {
+        margin: 0px 50px 40px 50px;
+    }
+
 }
 
 /* 1200 viewport */
@@ -893,7 +895,7 @@ input#mail:valid{
     }
 
     .menu-wrap .hamburger {
-        margin-right: 1265px;
+        margin-right: 1190px;
     }
 }
 

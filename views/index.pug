@@ -36,7 +36,7 @@ header.showcase
   .container.showcase-inner
     img(src='static/media/intro-img.png' alt='Healthcare Professional + Industry Career Pathway' class='intro-img')
     p
-      | We are US NURSING PLUS; an Illinois Incorporated Entity. We are involve in care and staffing; we are an employment agency hiring eligible candidate with suitable knowledge, skills and experience in the healthcare industry.  
+      | We are US NURSING PLUS; an Illinois Incorporated Entity. We are involve in care and staffing; we are an employment agency hiring eligible candidate with suitable knowledge, skills and experience in the healthcare industry. 
   //- <form action="get">
   //- <fieldset class="first-fieldset">
   //- <h2 class="form-title">Give us a wave!</h2>
@@ -57,7 +57,20 @@ header.showcase
   //- </form>
 #about.color-bg
   .color-bg-wrapper
-    img.hiring-pic(src='static/media/hiring-pic.png' alt='Hiring now pic')
+    .career-about1
+      img.hiring-pic(src='static/media/hiring-pic.png' alt='Hiring now pic')
+      //.position-list
+        h3.positions Position + Salary + Benefits
+        ul.disclist
+          li.discs Director of Nursing
+          li.discs ADON / CSS
+          li.discs Floor Nurse
+          li.discs Nurse Supervisor
+          li.discs Nurse Manager
+          li.discs Restorative Nurse
+          li.discs Wound Care Nurse
+          li.discs Treatment Nurse
+          li.discs MDS, ETC.
     .career-about
       img.career-pic(src='static/media/career-pic.png' alt='Career + US Visa')            
       p.skew1 WORK &amp; IMMIGRANT VISA is OPEN. Corporate and Immigration Lawyer legal assistance in application filing is active on all available positions for qualified applicants. Employability is also open for non-medical job positions.
@@ -176,8 +189,7 @@ header.showcase
     li.secondary-list 8b. HIPPA Forms
     li.secondary-list 8c. Employment Contract
     li.requirements-note
-      | NOTE: The requirements can be completed at the office or you can
-      | upload them and fill up the electronic forms here on the website.
+      | NOTE: The requirements can be completed by sending it to our email or submit it to us directly.
   //
     //- <ul class="requirements-list2">
     //- <h4>Staffing + US VISA Application:</h4>
@@ -199,8 +211,14 @@ header.showcase
     //- </ul>
 .company-logos
   h4 In association with:
-  img.company-logo2(src='../static/media/guru_logo.png' alt='logo')
-  img.company-logo3(src='../static/media/befic-logo.png' alt='logo')
+  a(href='http://usnursing.guru' target='blank')
+    img.company-logo2(src='../static/media/guru_logo.png' alt='US Nursing Guru logo')
+  a(href='#')
+    img.company-logo3(src='../static/media/befic-logo.png' alt='Befic logo')
+  a(href="https://ahacpr.us" target='blank')
+    img.ahacpr-logo(src='../static/media/ahacpr-logo.png' alt='AHACPR logo')
+  a(href="https://usnursingreview.com" target='blank')
+    img.usnr-logo(src='../static/media/usnr.png' alt='USNR logo')
 aside#contacts.contacts
   .contacts-wrap
     .contact-second-wrap
