@@ -396,7 +396,7 @@ input#mail:valid{
 .color-bg {
     width: 100%;
     margin: 100px auto 0;
-    background: var(--secondary-color);
+    background: url('../media/rain-bg.png')no-repeat center center/cover;
     padding: 20px;
     color: var(--primary-color);
     position: relative;
@@ -408,7 +408,7 @@ input#mail:valid{
     width: 0; 
     height: 0; 
     border-right: 316px solid transparent; 
-    border-bottom: 50px solid var(--secondary-color);
+    border-bottom: 50px groove var(--secondary-color);
     position: absolute;
     bottom: 100%;
     left: 0;
@@ -929,12 +929,16 @@ input#mail:valid{
     }
 
     .hiring-pic {
-        height: 170px;
+        height: 180px;
     }
 
     .career-pic {
         width: 380px;
         height: 60px;
+    }
+
+    .career-about {
+        margin-left: 160px;
     }
 
     .services-par {
