@@ -437,6 +437,12 @@ input#mail:valid{
     margin-bottom: 20px;
 }
 
+.career-pic {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: -20px;
+}
+
 .fas {
     font-weight: 900;
     font-size: 100px;
