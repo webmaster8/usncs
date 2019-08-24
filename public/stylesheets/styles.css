@@ -407,8 +407,7 @@ input#mail:valid{
     content: '';
     width: 0; 
     height: 0; 
-    border-right: 316px solid transparent; 
-    border-bottom: 50px groove var(--secondary-color);
+    border-right: 316px solid transparent;
     position: absolute;
     bottom: 100%;
     left: 0;
@@ -926,10 +925,12 @@ input#mail:valid{
         font-size: 1.7rem;
         text-align: justify;
         align-self: center;
+        font-weight: bold;
     }
 
     .hiring-pic {
-        height: 180px;
+        height: 130px;
+        width: 750px;
     }
 
     .career-pic {
@@ -938,7 +939,7 @@ input#mail:valid{
     }
 
     .career-about {
-        margin-left: 160px;
+        margin-left: 240px;
     }
 
     .services-par {
