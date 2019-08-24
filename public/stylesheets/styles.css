@@ -105,6 +105,11 @@ li{
     margin: 10px;
 }
 
+.logo {
+    width: 148px;
+    height: 104px;
+}
+
 .menu-wrap {
     position: fixed;
     top: 0;
@@ -868,6 +873,12 @@ input#mail:valid{
 
     .showcase p {
         font-size: 1.5rem;
+        width: 1000px;
+    }
+
+    .intro-img {
+        width: 618px;
+        margin-bottom: 40px;
     }
 
     .color-bg-wrapper p {
