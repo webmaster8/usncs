@@ -33,10 +33,16 @@ head
           li
             a(href='#contacts') Contact
 header.showcase
-  .container.showcase-inner
-    img(src='static/media/intro-img.png' alt='Healthcare Professional + Industry Career Pathway' class='intro-img')
-    p
-      | We are US NURSING PLUS; an Illinois Incorporated Entity. We are involve in care and staffing; we are an employment agency hiring eligible candidate with suitable knowledge, skills and experience in the healthcare industry. 
+  header
+    .overlay
+    video.videoBg(playsinline='playsinline' autoplay='autoplay' muted='muted' loop='loop')
+      source(src='../static/media/landing-video.mp4' type='video/mp4')
+    .container.h-100
+      .d-flex.h-100.text-center.align-items-center
+        .text-white
+          img.intro-img(src='../static/media/intro-img.png' alt='')
+          p.lead
+            | We are US NURSING PLUS; an Illinois Incorporated Entity. We are involve in care and staffing; we are an employment agency hiring eligible candidate with suitable knowledge, skills and experience in the healthcare industry.
   //- <form action="get">
   //- <fieldset class="first-fieldset">
   //- <h2 class="form-title">Give us a wave!</h2>
@@ -96,18 +102,6 @@ header.showcase
             .modal-footer
               button.btn.btn-secondary(type='button' data-dismiss='modal') Close
 
-
-
-
-
-
-
-
-
-
-
-
-
 #services.services
   h2.services-title Services We Provide:
   .services-wrapper
@@ -135,7 +129,13 @@ header.showcase
       i.fas.fa-hands-helping
       h3 Free Job Consultation Advice
       p.services-par
-        | We share our knowledge and experience to our employees, as it results to higher morale in the workplace. Whenever you need help on anything in this industry, as long as we are well-grounded about it, we will always be happy to help.
+        | We are always
+        | willing and pleased to offer our professional counsel to practitioners of this noble profession drawing 
+        | from our knowledge and wealth of experience in our extensive the healthcare practice. Thus, will not only
+        | improve the capacities of a healthcare provider, it will also enable them to stay motivated in the workplace.
+        br
+        br
+        | Feel free to contact us about anything in our field of practice and we will always be happy to help.
 .illinoismap
   h3.illinoistitle We accept on:
   .illinoismap-wrapper
