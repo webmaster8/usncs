@@ -290,6 +290,10 @@ header .container {
     display: flex;
 }
 
+.modal-content {
+    padding: 10px;
+}
+
 /* .container{
 	width: 90%;
 	margin: 0 auto;
@@ -1068,7 +1072,7 @@ input#mail:valid{
 
 
 /* 1920 viewport */
-@media (min-width: 1920px) {
+@media (min-width: 1920px) and (min-height: 1080px) {
     .color-bg:before {
         border-right: 1920px solid transparent;
     }
