@@ -18,12 +18,55 @@ body {
     color: var(--overlay-color);
 }
 
+a {
+    color: #fff;
+    text-decoration: #fff;
+}
 
+address {
+    margin-bottom: 0;
+}
 
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 3rem;
+}
+
+.showcase {
+    color: #fff;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+}
+
+/* .showcase:before {
+    content:'';
+    background: url('../media/landing-video.mp4') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+} */
+
+/* .showcase .showcase-inner {
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    background-color: var(--overlay-color);
+} */
+  
 header {
     position: relative;
     background-color: black;
-    height: 75vh;
+    height: 100vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -49,78 +92,41 @@ header .container {
     z-index: 2;
 }
 
+.container {
+    padding: 0px;
+}
+
+.text-white {
+    width: 100%;
+    height: 100%;
+}
+
 .intro-img {
     width: 300px;
     margin-bottom: 25px;
-    margin-top: 60px;
+    margin-top: 120px;
 }
 
-
-
-a {
-    color: #fff;
-    text-decoration: #fff;
+.read-more {
+    margin-top: -140px;
 }
 
-li {
-    list-style: none;
-}
-
-address {
-    margin-bottom: 0;
-}
-
-/* 
-.showcase {
-    background-color: var(--primary-color);
-    color: #fff;
-    height: 100vh;
-    position: fixed;
-    z-index: -1;
-    width: 100%;
-} */
-
-/* .showcase:before {
-    content:'';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-} */
-
-.showcase .showcase-inner {
-    display: flex;
-    flex-direction:  column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-    background-color: var(--primary-color);
+.showcase h1 {
+    font-size: 4rem;
 }
 
 .showcase p {
     font-size: 1.3rem;
+    width: 90%;
+    margin: auto;
+    background: var(--primary-color);
+    border-radius: 2px;
+    padding: 2px;
 }
 
-.btn {
-    display: inline-block;
-    border: none;
-    background-color: var(--primary-color);
-    color: #fff;
-    padding: 0.75rem 1.5rem;
-    margin-top: 1rem;
-    text-decoration: none;
-    transition: opacity 1s ease-in;
-}
-
-.btn:hover {
-    opacity: 0.7;
-}
-
-li{
-    list-style: none;
+#read-more {
+    margin-top: -80px;
+    margin-bottom: 150px;
 }
 
 .logo,
@@ -131,6 +137,11 @@ li{
     height: 95px;
     cursor: pointer;
     margin: 10px;
+}
+
+.logo {
+    width: 129.12px;
+    height: 81.64px;
 }
 
 .menu-wrap {
@@ -162,7 +173,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 162px;
+    margin-right: 125px;
     border-radius: 5px;
 }
 
@@ -241,7 +252,7 @@ li{
 }
 
 .menu-wrap .menu > div {
-    background: var(--overlay-color);
+    background: var(--primary-color);
     border-radius: 50%;
     width: 200vw;
     height: 200vw;
@@ -265,6 +276,7 @@ li{
     color: #fff;
     font-size: 1.5rem;
     padding: 1rem;
+    list-style-type: none;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
@@ -277,12 +289,9 @@ li{
     display: flex;
 }
 
-
-
-
-
-
-
+.modal-content {
+    padding: 10px;
+}
 
 /* .container{
 	width: 90%;
@@ -413,8 +422,8 @@ input#mail:valid{
 
 .color-bg {
     width: 100%;
-    margin: 100px auto 0;
-    background: var(--secondary-color);
+    margin-top: -80px;
+    background: url('../media/rain-bg.png')no-repeat center center/cover;
     padding: 20px;
     color: var(--primary-color);
     position: relative;
@@ -425,11 +434,24 @@ input#mail:valid{
     content: '';
     width: 0; 
     height: 0; 
-    border-right: 316px solid transparent; 
-    border-bottom: 50px solid var(--secondary-color);
+    border-right: 316px solid transparent;
     position: absolute;
     bottom: 100%;
     left: 0;
+}
+
+.color-bg-wrapper h2{
+    background: hotpink;
+    padding: 10px;
+    border-radius: 3px;
+    color: #f4f7f8;
+    text-transform: uppercase;
+    box-shadow: -5px 10px rgba(000,000,000, 0.05);
+    margin-bottom: 30px;
+}
+
+.color-bg-wrapper p{
+    font-weight: bold;
 }
 
 .color-bg-image {
@@ -437,6 +459,35 @@ input#mail:valid{
     margin: auto;
     display: flex; /* To center align */
     border-radius: 1.5px;
+}
+
+.hiring-pic {
+    width: 300px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+.career-pic {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: -20px;
+}
+
+.positions {
+    background-color: var(--secondary-color);
+    padding: 5px;
+    border-radius: 2px;
+    font-weight: 500;
+    width: 300px;
+    font-size: 1.4rem;
+}
+
+.position-disclist {
+    margin-left: 20px;
+}
+
+.discs {
+    color: var(--overlay-color);
 }
 
 .fas {
@@ -614,19 +665,32 @@ input#mail:valid{
     text-align: center;
 }
 
-.company-logo1,
 .company-logo2,
-.company-logo3 {
-    margin-bottom: 40px;
+.company-logo3,
+.ahacpr-logo,
+.usnr-logo {
+    margin: 0px 5px 40px 5px;
 }
 
 .company-logo2 {
     width: 90px;
+    margin-right: 0px;
+    height: 70px;
 }
 
 .company-logo3 {
-    width: 80px;
-    height: 50px;
+    width: 99px;
+    height: 60px;
+}
+
+.ahacpr-logo {
+    width: 90px;
+    height: 80px;
+    margin-bottom: 18px;
+}
+
+.usnr-logo {
+    width: 120px;
 }
 
 .contacts {
@@ -661,12 +725,13 @@ input#mail:valid{
 }
 
 .disclaimer-btn {
-    background-color: transparent;
-    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    border: 2px solid transparent;
 }
 
 .disclaimer-btn:hover {
-    background-color: var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
     transition: all .4s ease;
 }
 
@@ -690,7 +755,81 @@ input#mail:valid{
 		   Media Query
 =================================*/
 
+/* 568 viewport */
+@media (min-height: 568px) {
+
+    #read-more {
+        margin-top: -3px;
+        margin-bottom: 100px;
+    }
+}
+
+/* 640 viewport */
+@media (min-height: 640px) {
+
+    #read-more {
+        margin-top: -90px;
+        margin-bottom: 150px;
+    }
+}
+
+/* 667 viewport */
+@media (min-height: 667px) {
+
+    #read-more {
+        margin-top: -140px;
+        margin-bottom: 200px;
+    }
+}
+
+/* 732 viewport */
+@media (min-height: 731px) {
+
+    header .container {
+        padding-top: 50px; 
+    }
+
+    #read-more {
+        margin-top: -165px;
+        margin-bottom: 251px;
+    }
+}
+
+/* 812 viewport */
+@media (min-height: 812px) {
+
+    #read-more {
+        margin-top: -250px;
+        margin-bottom: 290px;
+    }
+}
+
+/* 823 viewport */
+@media (min-height: 823px) {
+
+    header .container {
+        padding-top: 90px; 
+    }
+
+    #read-more {
+        margin-top: -215px;
+        margin-bottom: 300px;
+    }
+}
+
+
+
 /* 768 viewport */
+
+@media (max-width: 767px) {
+    .videoBg {
+        display: none;
+    }
+    .container {
+        background: url('../media/landing-pic.png')no-repeat center center/cover;
+        background-size: cover;
+    }
+}
 
 @media (min-width: 768px){
 
@@ -727,16 +866,21 @@ input#mail:valid{
 @media(min-width: 1024px){
 
     .menu-wrap .hamburger {
-        margin-right: 855px;
+        margin-right: 755px;
     }
 
     .container {
         max-width: 100%;
     }
 
+    .showcase p {
+        padding: 20px;
+    }
+
     .color-bg {
         display: flex;
         padding: 50px;
+        margin-top: 100px;
     }
 
     .color-bg:before {
@@ -745,6 +889,8 @@ input#mail:valid{
 
     .color-bg-wrapper {
         align-self: center;
+        display: flex;
+        justify-content: space-around;
     }
 
     .color-bg-wrapper h2 {
@@ -762,6 +908,36 @@ input#mail:valid{
 
     .color-bg-image {
         width: 339px;
+    }
+
+    .hiring-pic {
+        width: 500px;
+        margin-top: -55px;
+        height: 95px;
+    }
+
+    .career-pic {
+        width: 256px;
+        height: 52px;
+        margin-bottom: 15px;
+    }
+
+    .career-about {
+        width: 50%;
+        margin-left: 80px;
+    }
+
+    .positions {
+        width: 335px;
+    }
+
+    .btn-primary {
+        margin: 0px;
+    }
+
+    #read-more {
+        margin: auto;
+        margin-top: -15px;
     }
 
     .services-wrapper {
@@ -829,6 +1005,13 @@ input#mail:valid{
         width: 600px;
     }
     
+    .company-logo2,
+    .company-logo3,
+    .ahacpr-logo,
+    .usnr-logo {
+        margin: 0px 50px 40px 50px;
+    }
+
 }
 
 /* 1200 viewport */
@@ -853,12 +1036,23 @@ input#mail:valid{
 
 /* 1440 viewport */
 @media (min-width: 1440px) {
+
+    .intro-img {
+        margin-top: 60px;
+        width: 400px;
+    }
+
+    .showcase p {
+        width: 60%;
+    }
+
     .color-bg:before {
         border-right: 1440px solid transparent;
     }
 
     .color-bg {
         padding: 100px;
+        margin-top: 30px;
     }
 
     .color-bg-image {
@@ -866,9 +1060,15 @@ input#mail:valid{
     }
 
     .menu-wrap .hamburger {
-        margin-right: 1265px;
+        margin-right: 1190px;
+    }
+
+    #read-more {
+        margin-top: -75px;
+        margin-bottom: 80px;
     }
 }
+
 
 /* 1920 viewport */
 @media (min-width: 1920px) {
@@ -877,7 +1077,7 @@ input#mail:valid{
     }
 
     .menu-wrap .hamburger {
-        margin-right: 1744px;
+        margin-right: 1635px;
     }
 
     .showcase h1 {
@@ -885,11 +1085,62 @@ input#mail:valid{
     }
 
     .showcase p {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
+        width: 1000px;
+    }
+
+    .intro-img {
+        width: 618px;
+        margin-bottom: 40px;
+    }
+
+    header .container {
+        padding-top: 270px; 
+    }
+
+    #read-more {
+        margin-top: -106px;
+        margin-bottom: 160px;
     }
 
     .color-bg-wrapper p {
-        font-size: 1.3rem;
+        font-size: 1.7rem;
+        text-align: justify;
+        align-self: center;
+        font-weight: bold;
+    }
+
+    .hiring-pic {
+        height: 130px;
+        width: 750px;
+    }
+
+    .career-pic {
+        width: 380px;
+        height: 60px;
+    }
+
+    .career-about {
+        margin-left: 240px;
+    }
+
+    .position-list {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .positions {
+        font-size: 2.5rem;
+        font-weight: bold;
+        width: 475px;
+    }
+
+    .position-disclist {
+        margin-left: 30px;
+    }
+
+    .discs {
+        font-size: 1.8rem;
     }
 
     .services-par {
@@ -899,6 +1150,30 @@ input#mail:valid{
 
     .illinoistitle {
         font-size: 3rem;
+    }
+
+    .imap {
+        width: 280px;
+        margin-left: -120px;
+    }
+
+    .company-logo2 {
+        width: 180px;
+        height: 150px;
+    }
+
+    .company-logo3 {
+        width: 180px;
+        height: 90px;
+    }
+
+    .ahacpr-logo {
+        width: 155px;
+        height: 120px;
+    }
+
+    .usnr-logo {
+        width: 170px;
     }
 }
 
