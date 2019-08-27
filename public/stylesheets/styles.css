@@ -85,7 +85,7 @@ header .container {
     margin-top: 120px;
 }
 
-.read-more {
+#read-more {
     margin-top: -200px;
 }
 
@@ -777,8 +777,8 @@ input#mail:valid{
     }
 
     #read-more {
-        margin-top: -165px;
-        margin-bottom: 251px;
+        margin-top: -200px;
+        margin-bottom: 260px;
     }
 }
 
