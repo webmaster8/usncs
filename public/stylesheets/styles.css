@@ -464,13 +464,14 @@ input#mail:valid{
     background-color: var(--secondary-color);
     padding: 5px;
     border-radius: 2px;
-    font-weight: 500;
+    font-weight: bold;
     width: 300px;
     font-size: 1.4rem;
 }
 
 .position-disclist {
     margin-left: 20px;
+    font-weight: bold;
 }
 
 .discs {
