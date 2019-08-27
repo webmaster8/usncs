@@ -406,6 +406,13 @@ input#mail:valid{
 	padding-right: 10px;
 }
 
+.career-about1 {
+    background: rgba(255, 255, 255, .233333333);
+}
+
+.career-about {
+    background: rgba(255, 255, 255, .3444444);
+}
 
 .color-bg {
     width: 100%;
