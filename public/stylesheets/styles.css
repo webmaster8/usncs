@@ -67,7 +67,7 @@ address {
 header {
     position: relative;
     background-color: black;
-    height: 75vh;
+    height: 100vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -108,6 +108,10 @@ header .container {
     margin-top: 120px;
 }
 
+.read-more {
+    margin-top: -140px;
+}
+
 .showcase h1 {
     font-size: 4rem;
 }
@@ -119,6 +123,11 @@ header .container {
     background: var(--primary-color);
     border-radius: 2px;
     padding: 2px;
+}
+
+#read-more {
+    margin-top: -80px;
+    margin-bottom: 150px;
 }
 
 .logo,
@@ -743,6 +752,70 @@ input#mail:valid{
 		   Media Query
 =================================*/
 
+/* 568 viewport */
+@media (min-height: 568px) {
+
+    #read-more {
+        margin-top: -3px;
+        margin-bottom: 100px;
+    }
+}
+
+/* 640 viewport */
+@media (min-height: 640px) {
+
+    #read-more {
+        margin-top: -90px;
+        margin-bottom: 150px;
+    }
+}
+
+/* 667 viewport */
+@media (min-height: 667px) {
+
+    #read-more {
+        margin-top: -140px;
+        margin-bottom: 200px;
+    }
+}
+
+/* 732 viewport */
+@media (min-height: 731px) {
+
+    header .container {
+        padding-top: 50px; 
+    }
+
+    #read-more {
+        margin-top: -165px;
+        margin-bottom: 251px;
+    }
+}
+
+/* 812 viewport */
+@media (min-height: 812px) {
+
+    #read-more {
+        margin-top: -250px;
+        margin-bottom: 290px;
+    }
+}
+
+/* 823 viewport */
+@media (min-height: 823px) {
+
+    header .container {
+        padding-top: 90px; 
+    }
+
+    #read-more {
+        margin-top: -215px;
+        margin-bottom: 300px;
+    }
+}
+
+
+
 /* 768 viewport */
 
 @media (max-width: 767px) {
@@ -857,6 +930,11 @@ input#mail:valid{
 
     .btn-primary {
         margin: 0px;
+    }
+
+    #read-more {
+        margin: auto;
+        margin-top: -15px;
     }
 
     .services-wrapper {
@@ -981,6 +1059,11 @@ input#mail:valid{
     .menu-wrap .hamburger {
         margin-right: 1190px;
     }
+
+    #read-more {
+        margin-top: -75px;
+        margin-bottom: 80px;
+    }
 }
 
 /* 1920 viewport */
@@ -1005,6 +1088,15 @@ input#mail:valid{
     .intro-img {
         width: 618px;
         margin-bottom: 40px;
+    }
+
+    header .container {
+        padding-top: 150px; 
+    }
+
+    #read-more {
+        margin-top: -110px;
+        margin-bottom: 142px;
     }
 
     .color-bg-wrapper p {
