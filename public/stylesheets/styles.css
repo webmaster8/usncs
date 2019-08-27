@@ -461,7 +461,7 @@ input#mail:valid{
 }
 
 .position-list {
-    background: rgba(255,255,255, .3555);
+    background: rgba(255,255,255, .4);
 }
 
 .positions {
@@ -476,7 +476,7 @@ input#mail:valid{
 .position-disclist {
     margin-left: 20px;
     font-weight: bold;
-    padding: 5px;
+    padding: 10px;
     font-size: 1.039rem;
 }
 
