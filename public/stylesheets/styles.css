@@ -107,6 +107,11 @@ header .container {
     margin-bottom: 150px;
 }
 
+#read-more2 {
+    margin: auto;
+    height: 35px;
+}
+
 .logo,
 .company-logo1,
 .company-logo2,

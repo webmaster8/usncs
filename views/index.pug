@@ -151,13 +151,29 @@ button#read-more.btn.btn-primary(type='button' data-toggle='modal' data-target='
       i.fas.fa-hands-helping
       h3 Free Job Consultation Advice
       p.services-par
-        | We are always
-        | willing and pleased to offer our professional counsel to practitioners of this noble profession drawing 
-        | from our knowledge and wealth of experience in our extensive the healthcare practice. Thus, will not only
-        | improve the capacities of a healthcare provider, it will also enable them to stay motivated in the workplace.
-        br
-        br
-        | Feel free to contact us about anything in our field of practice and we will always be happy to help.
+        | We believe “True success is measured by how you share it with others in their efforts to succeed.
+        | ”—MBéfic. Hence, our genuine sharing of our expertise enhances every one's productivity. 
+        // Button trigger modal
+        button#read-more2.btn.btn-primary(type='button' data-toggle='modal' data-target='#exampleModalScrollable')
+          | Read More
+        // Modal
+        #exampleModalScrollable.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalScrollableTitle' aria-hidden='true')
+          .modal-dialog.modal-dialog-scrollable(role='document')
+            .modal-content
+              .modal-header
+              .modal-body
+                | We believe “True success is measured by how you share it with others in their efforts 
+                | to succeed.”—MBéfic. Hence, our genuine sharing of our expertise enhances every one's 
+                | productivity. We are always willing and pleased to offer our professional counsel to 
+                | practitioners of this noble profession drawing from our knowledge and wealth of experience 
+                | in our extensive the healthcare practice. Thus, will not only improve the capacities of a 
+                | healthcare provider, it will also enable them to stay motivated in the workplace. 
+                br
+                br
+                | Feel free to contact us about anything in our field of practice and expect our sincere help.
+
+              .modal-footer
+                button.btn.btn-secondary(type='button' data-dismiss='modal') Close
 .illinoismap
   h3.illinoistitle We accept on:
   .illinoismap-wrapper
