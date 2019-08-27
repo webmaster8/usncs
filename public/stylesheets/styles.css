@@ -1072,7 +1072,7 @@ input#mail:valid{
 
 
 /* 1920 viewport */
-@media (min-width: 1920px) and (min-height: 1080px) {
+@media (min-width: 1920px) {
     .color-bg:before {
         border-right: 1920px solid transparent;
     }
