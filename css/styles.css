@@ -1177,3 +1177,64 @@ input#mail:valid{
     }
 }
 
+/* 568 viewport */
+@media (min-height: 568px) {
+
+    #read-more {
+        margin-top: -3px;
+        margin-bottom: 100px;
+    }
+}
+
+/* 640 viewport */
+@media (min-height: 640px) {
+
+    #read-more {
+        margin-top: -90px;
+        margin-bottom: 150px;
+    }
+}
+
+/* 667 viewport */
+@media (min-height: 667px) {
+
+    #read-more {
+        margin-top: -140px;
+        margin-bottom: 200px;
+    }
+}
+
+/* 732 viewport */
+@media (min-height: 731px) {
+
+    header .container {
+        padding-top: 50px; 
+    }
+
+    #read-more {
+        margin-top: -250px;
+        margin-bottom: 260px;
+    }
+}
+
+/* 812 viewport */
+@media (min-height: 812px) {
+
+    #read-more {
+        margin-top: -250px;
+        margin-bottom: 290px;
+    }
+}
+
+/* 823 viewport */
+@media (min-height: 823px) {
+
+    header .container {
+        padding-top: 90px; 
+    }
+
+    #read-more {
+        margin-top: -215px;
+        margin-bottom: 300px;
+    }
+}

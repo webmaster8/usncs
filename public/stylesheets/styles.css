@@ -769,7 +769,7 @@ input#mail:valid{
 @media (min-height: 640px) {
 
     #read-more {
-        margin-top: -90px;
+        margin-top: -40px;
         margin-bottom: 150px;
     }
 }
@@ -778,8 +778,8 @@ input#mail:valid{
 @media (min-height: 667px) {
 
     #read-more {
-        margin-top: -140px;
-        margin-bottom: 200px;
+        margin-top: -100px;
+        margin-bottom: 180px;
     }
 }
 
@@ -791,8 +791,8 @@ input#mail:valid{
     }
 
     #read-more {
-        margin-top: -250px;
-        margin-bottom: 260px;
+        margin-top: -111px;
+        margin-bottom: 200px;
     }
 }
 
@@ -800,8 +800,8 @@ input#mail:valid{
 @media (min-height: 812px) {
 
     #read-more {
-        margin-top: -250px;
-        margin-bottom: 290px;
+        margin-top: -190px;
+        margin-bottom: 250px;
     }
 }
 
@@ -813,8 +813,8 @@ input#mail:valid{
     }
 
     #read-more {
-        margin-top: -215px;
-        margin-bottom: 300px;
+        margin-top: -165px;
+        margin-bottom: 250px;
     }
 }
 
