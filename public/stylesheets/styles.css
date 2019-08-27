@@ -141,8 +141,8 @@ header .container {
 }
 
 .logo {
-    width: 128px;
-    height: 81px;
+    width: 129.12px;
+    height: 81.64px;
 }
 
 .menu-wrap {
@@ -1066,6 +1066,7 @@ input#mail:valid{
     }
 }
 
+
 /* 1920 viewport */
 @media (min-width: 1920px) {
     .color-bg:before {
@@ -1091,12 +1092,12 @@ input#mail:valid{
     }
 
     header .container {
-        padding-top: 150px; 
+        padding-top: 270px; 
     }
 
     #read-more {
-        margin-top: -110px;
-        margin-bottom: 142px;
+        margin-top: -240px;
+        margin-bottom: 345px;
     }
 
     .color-bg-wrapper p {
