@@ -476,6 +476,8 @@ input#mail:valid{
 .position-disclist {
     margin-left: 20px;
     font-weight: bold;
+    padding: 5px;
+    font-size: 1.039rem;
 }
 
 .discs {
